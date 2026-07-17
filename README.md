@@ -1,1 +1,2 @@
 #50 day development challenge by Synexus
+I learned the fundamentals of semantic HTML by building a structured webpage using HTML5 tags such as <header>, <nav>, <main>, <section>, <article>, and <footer>. I also learned the importance of using semantic elements instead of generic <div> tags, added ARIA roles to improve accessibility, and gained hands-on experience with Git and GitHub by committing and pushing my code to a repository. This helped me understand both proper web page structure and basic version control workflows.
