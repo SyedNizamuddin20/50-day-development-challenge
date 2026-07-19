@@ -1,0 +1,178 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS Variables */
+:root {
+    --primary-color: #00e5ff;
+    --text-color: #e5e7eb;
+    --bg-color: #121212;
+}
+
+/* Body Styling */
+body {
+    background-color: var(--bg-color);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+}
+
+/* Bonus Challenge */
+h1 {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+/* Navigation Links */
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--primary-color);
+}
+
+/* Hero Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    text-align: center;
+}
+
+#home p {
+    margin-bottom: 20px;
+}
+
+#home button {
+    padding: 12px 24px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#home button:hover {
+    opacity: 0.9;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+/* Section Styling */
+#about,
+#initiatives,
+#team {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+/* Section Headings */
+#about h2,
+#initiatives h2,
+#team h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Paragraphs */
+#about p,
+#initiatives p,
+#team p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--text-color);
+}
+/* Team Section */
+#team {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.profile-card {
+    background: #1f1f1f;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-card h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: cyan;
+}
+
+.profile-card p {
+    color: #cccccc;
+    margin-bottom: 15px;
+}
+
+.profile-card a {
+    display: inline-block;
+    text-decoration: none;
+    background: cyan;
+    color: black;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.profile-card a:hover {
+    background: #00bcd4;
+}
